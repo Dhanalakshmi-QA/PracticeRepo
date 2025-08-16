@@ -28,6 +28,11 @@ public class GoogleSearchTest {
 			googlePage.searchFor("Dogs");
 			googlePage.clickFirstResult();
 		}
+		@Test
+		public void helloWorld()
+		{
+			System.out.println("Hello world");
+		}
 		
 		@AfterClass
 		public void teardown()
