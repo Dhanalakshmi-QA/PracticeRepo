@@ -32,6 +32,7 @@ public class GoogleSearchTest {
 		public void helloWorld()
 		{
 			System.out.println("Hello world");
+			System.out.println("Hi");
 		}
 		
 		@AfterClass
